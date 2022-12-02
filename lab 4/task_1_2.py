@@ -2,7 +2,7 @@ from task_1 import sort_quik
 from task_1 import sort_ras
 import timeit
 
-mas = [5, 8, 2, 4, 9, 1, 7, 6, 3]
+mas = list(map(int, input().split()))
 
 answ = input("Какую сортировку вы предпочитаете? (быстрая - 1, расчёска - 2): ")
 while (answ != '1') and (answ != '2'):
