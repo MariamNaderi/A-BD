@@ -10,7 +10,7 @@ def piramid_sort(A):
     for m in range(ryad):
         B.append(A[:2**m])
         A = A[2**m:]
-    print(A)
+        
     for q in range(2**(ryad-1) - len(B[-1])): B[-1].append(-float('inf'))
 
     while B[0][0] != -float('inf'):
